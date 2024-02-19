@@ -1,0 +1,50 @@
+body{
+  background-color: black;
+  color: white
+}
+
+
+
+
+
+
+      /* /* {{<h1 style={{fontsize:'100px'}}>10</h1>}
+      {/* <div className="d-flex justify-content-evenly mt-5 w-100">
+        <button onClick={()=>dispatch(decrement())}className='btn btn-warning'>Decrement</button>
+        <button onClick={()=>dispatch(reset())}className='btn btn-danger'>Reset</button>
+        <button onClick={()=>dispatch(increment())} className='btn btn-sucess'>Increment</button>
+
+      </div>
+
+      <div className="d-flex justify-content-between mt-5 w-100">
+        <input onChange={e=>setAmount(e.target.value)} value={amount||""} type="text" className="form-control" placeholder='enter the amount to be Incremented!!!'></input>
+        <button onClick={handleIncrement} className='btn btn-primary ms-3'>Increment by Amount</button>
+/* </div> */
+/* </div> */
+
+
+
+
+/* import React from 'react'
+import { useDispatch, useSelector } from 'react-redux'
+import { increment } from '../Redux/counterSlice'
+
+function Counter() {
+  const dispatch = useDispatch()
+  const count = useSelector((state)=>state.counterSlice.count)
+  const [amount,setAmount]=usestate(0)
+  const handleIncrement = ()=>{
+    if(amount>0){
+      dispatch(incrementbyamount(+amount))
+      setAmount("")
+    }else{
+      alert("Enter valid Amount")
+    }
+  }
+  return (
+          <div className='border rounded p-3'>
+            counter
+  )
+}
+
+export default Counter */
